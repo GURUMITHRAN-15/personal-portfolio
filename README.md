@@ -1,16 +1,85 @@
-# React + Vite
+# 🚀 Gurumithran V — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive personal portfolio built with **React + Vite**, featuring smooth animations, a custom cursor, and a clean minimal design.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [personal-portfolio-eight-steel-25.vercel.app](https://personal-portfolio-eight-steel-25.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚡ **Blazing Fast** — Built with Vite for instant HMR and optimized builds
+- 🎨 **Custom Cursor** — Smooth trailing dot-and-ring cursor with hover interactions
+- 🎞️ **Scroll Animations** — Fade-in, slide-in, and draw-on-scroll effects
+- 📱 **Fully Responsive** — Looks great on desktop, tablet, and mobile
+- 🔗 **GitHub Integration** — Fetches and displays live projects from GitHub API
+- 🧩 **Component-Based** — Clean, modular React architecture
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React | UI Components |
+| Vite | Build Tool & Dev Server |
+| Vanilla CSS | Styling & Animations |
+| Remix Icons | Icon Library |
+| GitHub API | Live Project Fetching |
+| Vercel | Deployment |
+
+---
+
+## 📂 Project Structure
+
+```
+portfolio-react/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx / .css
+│   │   ├── Hero.jsx / .css
+│   │   ├── About.jsx / .css
+│   │   ├── Skills.jsx / .css
+│   │   ├── Projects.jsx / .css
+│   │   ├── CtaSection.jsx / .css
+│   │   ├── Footer.jsx / .css
+│   │   └── Cursor.jsx / .css
+│   ├── App.jsx / .css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/GURUMITHRAN-15/personal-portfolio.git
+
+# Navigate into the project
+cd personal-portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+---
+
+## 📬 Contact
+
+- 📧 **Email:** gurumithranvedhamani@gmail.com
+- 💼 **LinkedIn:** [Gurumithran V](https://www.linkedin.com/in/gurumithran-v-b30b99357)
+- 🐙 **GitHub:** [GURUMITHRAN-15](https://github.com/GURUMITHRAN-15)
+
+
+---
+
+> Built with ❤️ by Gurumithran V

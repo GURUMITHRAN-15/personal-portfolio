@@ -1,0 +1,124 @@
+.about {
+    background-color: var(--bg-white);
+    position: relative;
+    overflow: hidden;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+.about-left {
+    position: relative;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--text-muted);
+    font-weight: 300;
+    max-width: 500px;
+}
+
+.arrow-svg {
+    margin-top: 40px;
+    opacity: 0.5;
+}
+
+.arrow-svg .draw-arrow {
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    transition: stroke-dashoffset 1.5s ease-out;
+}
+
+.about-trigger-class.is-visible .draw-arrow {
+    stroke-dashoffset: 0;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.interest-card {
+    background-color: var(--bg-color);
+    padding: 32px;
+    border-radius: 12px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    transition: var(--transition-smooth);
+}
+
+.interest-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+}
+
+.interest-icon {
+    font-size: 2rem;
+    background: var(--bg-white);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.interest-content h3 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.interest-content p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+/* Marquee */
+.marquee-divider {
+    padding: 20px 0;
+    background-color: var(--bg-white);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+}
+
+.marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 30s linear infinite;
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+}
+
+.marquee-content span.dot {
+    margin: 0 30px;
+    color: var(--text-light);
+}
+
+@keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+@media (max-width: 1024px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}

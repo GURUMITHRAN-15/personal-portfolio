@@ -1,0 +1,124 @@
+.footer {
+    background-color: var(--accent-dark);
+    color: var(--bg-white);
+    padding: 60px 40px 30px;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    color: var(--bg-white);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-tagline {
+    color: #999;
+    font-size: 0.95rem;
+    max-width: 320px;
+    line-height: 1.6;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--bg-white);
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover {
+    background-color: var(--accent-color);
+    color: #000;
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+    box-shadow: 0 10px 20px rgba(100, 255, 218, 0.2);
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.contact-item {
+    color: #999;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: inherit;
+}
+
+.contact-item:hover {
+    color: var(--accent-color);
+}
+
+.footer-bottom {
+    max-width: 1400px;
+    margin: 60px auto 0;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: #777;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 50px 20px 20px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-right {
+        align-items: flex-start;
+        width: 100%;
+        gap: 25px;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+    }
+
+    .contact-details {
+        align-items: flex-start;
+    }
+}

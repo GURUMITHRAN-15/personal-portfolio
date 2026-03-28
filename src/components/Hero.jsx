@@ -23,7 +23,9 @@ const Hero = () => {
             <span className="name-text">I'm Gurumithran V.</span>
           </h1>
           <p className="hero-subtitle hero-fade-up" style={{ animationDelay: '0.3s' }}>
-            — Developer focused on AI, Web Development, and Automation
+            — Backend Developer specializing in Java, Node.js, APIs & Database Systems.
+            Building scalable server-side architectures and AI-integrated applications
+            that handle real-world complexity.
           </p>
         </div>
 

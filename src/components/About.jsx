@@ -10,7 +10,7 @@ const About = () => {
             <div className="about-left slide-in-left">
               <h2 className="section-title">About Me</h2>
               <p className="about-text">
-                I build practical projects using AI and web technologies. My approach blends creativity with technical problem-solving. I enjoy turning ideas into working products, especially tools that solve real problems.
+                Backend developer with hands-on experience in Java, Firebase, and SQL — focused on designing APIs, managing databases, and building server-side logic for production-grade applications. Currently expanding into AI-powered systems, combining retrieval-augmented generation with scalable backend architectures.
               </p>
               
               <div className="arrow-svg">
@@ -26,22 +26,22 @@ const About = () => {
               <div className="interest-card interactive">
                 <div className="interest-icon">🔭</div>
                 <div className="interest-content">
-                  <h3>Currently Working On</h3>
-                  <p>AI-powered applications designed to streamline everyday tasks.</p>
+                  <h3>Currently Building</h3>
+                  <p>REST APIs and AI-integrated backends using Java, Node.js, and Firebase.</p>
                 </div>
               </div>
               <div className="interest-card interactive">
                 <div className="interest-icon">🌱</div>
                 <div className="interest-content">
                   <h3>Learning & Exploring</h3>
-                  <p>Advanced concepts like RAG systems and scalable backend development architectures.</p>
+                  <p>RAG pipelines, LLM orchestration, and distributed system design patterns.</p>
                 </div>
               </div>
               <div className="interest-card interactive">
                 <div className="interest-icon">⚡</div>
                 <div className="interest-content">
                   <h3>My Goal</h3>
-                  <p>Building fast, functional, and visually appealing products that matter.</p>
+                  <p>Shipping production-ready systems that are performant, maintainable, and built to scale.</p>
                 </div>
               </div>
             </div>
@@ -51,16 +51,16 @@ const About = () => {
 
       <div className="marquee-divider">
         <div className="marquee-content">
-          <span>FRONTEND DEVELOPMENT</span> <span className="dot">•</span>
-          <span>BACKEND DEVELOPMENT</span> <span className="dot">•</span>
+          <span>JAVA</span> <span className="dot">•</span>
+          <span>NODE.JS</span> <span className="dot">•</span>
+          <span>REST APIs</span> <span className="dot">•</span>
+          <span>SQL & DATABASES</span> <span className="dot">•</span>
           <span>AI INTEGRATION</span> <span className="dot">•</span>
-          <span>RAG SYSTEMS</span> <span className="dot">•</span>
-          <span>AUTOMATION</span> <span className="dot">•</span>
-          <span>FRONTEND DEVELOPMENT</span> <span className="dot">•</span>
-          <span>BACKEND DEVELOPMENT</span> <span className="dot">•</span>
+          <span>JAVA</span> <span className="dot">•</span>
+          <span>NODE.JS</span> <span className="dot">•</span>
+          <span>REST APIs</span> <span className="dot">•</span>
+          <span>SQL & DATABASES</span> <span className="dot">•</span>
           <span>AI INTEGRATION</span> <span className="dot">•</span>
-          <span>RAG SYSTEMS</span> <span className="dot">•</span>
-          <span>AUTOMATION</span> <span className="dot">•</span>
         </div>
       </div>
     </>

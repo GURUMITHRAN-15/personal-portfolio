@@ -1,8 +1,13 @@
 .footer {
-    background-color: var(--accent-dark);
-    color: var(--bg-white);
-    padding: 60px 40px 30px;
-    margin-top: auto;
+    background-color: var(--accent); /* In dark mode this is dark, in light mode it's light grey */
+    padding: 80px 40px 40px;
+    margin-top: 0;
+    border-top: 1px solid var(--border-color);
+}
+
+/* Override for consistent feel in both themes */
+body.dark-theme .footer {
+    background-color: #0F0F0F; /* Slightly darker than main bg for depth */
 }
 
 .footer-content {
@@ -14,9 +19,10 @@
 }
 
 .footer-logo {
-    color: var(--bg-white);
-    margin-bottom: 20px;
+    color: var(--text-main);
+    margin-bottom: 24px;
     display: inline-block;
+    font-size: 1.5rem;
 }
 
 .footer-left {
@@ -26,22 +32,23 @@
 }
 
 .footer-tagline {
-    color: #999;
-    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-size: 1rem;
     max-width: 320px;
     line-height: 1.6;
+    font-weight: 300;
 }
 
 .footer-right {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 30px;
+    gap: 32px;
 }
 
 .social-links {
     display: flex;
-    gap: 15px;
+    gap: 16px;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
@@ -50,52 +57,53 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.05);
-    color: var(--bg-white);
-    font-size: 1.4rem;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: var(--bg-white);
+    color: var(--text-main);
+    font-size: 1.2rem;
+    transition: var(--transition-smooth);
+    border: 1px solid var(--border-color);
 }
 
 .social-link:hover {
-    background-color: var(--accent-color);
-    color: #000;
+    background-color: var(--text-main);
+    color: var(--bg-color);
     transform: translateY(-5px);
-    border-color: var(--accent-color);
-    box-shadow: 0 10px 20px rgba(100, 255, 218, 0.2);
+    border-color: var(--text-main);
 }
 
 .contact-details {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 10px;
+    gap: 12px;
 }
 
 .contact-item {
-    color: #999;
-    font-size: 0.95rem;
+    color: var(--text-main);
+    font-size: 1rem;
     text-decoration: none;
-    transition: color 0.3s ease;
-    font-family: inherit;
+    transition: var(--transition-smooth);
+    font-family: var(--font-heading);
+    border-bottom: 1px solid transparent;
 }
 
 .contact-item:hover {
-    color: var(--accent-color);
+    color: var(--text-muted);
+    border-bottom-color: var(--text-muted);
 }
 
 .footer-bottom {
     max-width: 1400px;
-    margin: 60px auto 0;
-    padding-top: 30px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 80px auto 0;
+    padding-top: 32px;
+    border-top: 1px solid var(--border-color);
     text-align: center;
-    color: #777;
+    color: var(--text-light);
     font-size: 0.85rem;
+    letter-spacing: 0.05em;
 }
 
 @media (max-width: 768px) {

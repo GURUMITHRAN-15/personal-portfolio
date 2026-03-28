@@ -1,7 +1,7 @@
 .cursor {
     width: 8px;
     height: 8px;
-    background-color: #111;
+    background-color: var(--text-main);
     border-radius: 50%;
     position: fixed;
     top: 0;
@@ -15,7 +15,7 @@
 .cursor-follower {
     width: 40px;
     height: 40px;
-    border: 1px solid #111;
+    border: 1px solid var(--text-main);
     background-color: transparent;
     border-radius: 50%;
     position: fixed;
@@ -36,7 +36,7 @@
 .cursor-hovering {
     width: 60px;
     height: 60px;
-    background-color: rgba(17, 17, 17, 0.1);
+    background-color: rgba(var(--text-main-rgb, 128, 128, 128), 0.1);
     backdrop-filter: blur(2px);
     border-color: transparent;
 }

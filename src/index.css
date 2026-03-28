@@ -12,13 +12,30 @@
     --accent: #E8E8E6;
     --accent-dark: #222222;
     --border-color: #E6E6E6;
-    
+    --nav-bg: rgba(248, 248, 247, 0.98);
+
     /* Typography */
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
     
     /* Transitions */
     --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+
+    /* RGB for transparency */
+    --text-main-rgb: 28, 28, 28;
+}
+
+body.dark-theme {
+    --bg-color: #121212;
+    --bg-white: #1E1E1E;
+    --text-main: #F8F8F7;
+    --text-main-rgb: 248, 248, 247;
+    --text-muted: #A0A0A0;
+    --text-light: #555555;
+    --accent: #2C2C2C;
+    --accent-dark: #E8E8E6;
+    --border-color: #333333;
+    --nav-bg: rgba(18, 18, 18, 0.98);
 }
 
 /* ========= Reset & Global Styles ========= */
@@ -39,10 +56,12 @@ body {
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
-    cursor: none; /* For custom cursor */
+    cursor: none;
+    /* For custom cursor */
 }
 
-a, button {
+a,
+button {
     text-decoration: none;
     color: inherit;
     cursor: none;
@@ -123,6 +142,9 @@ a, button {
         font-size: 2.8rem;
     }
 }
+
 @media (max-width: 768px) {
-    .section-container { padding: 80px 20px; }
+    .section-container {
+        padding: 80px 20px;
+    }
 }

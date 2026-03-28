@@ -4,32 +4,32 @@ import './Projects.css';
 const projectsData = [
   {
     title: 'mithranGPT',
-    description: 'A custom AI-powered chatbot application leveraging modern LLM capabilities.',
-    tags: ['AI', 'LLM', 'Chatbot'],
+    description: 'Generic chatbots lack contextual depth. Built a custom conversational AI with LLM API integration, session memory, and streaming responses. Tech: JavaScript, LLM APIs. Handles multi-turn conversations with sub-second response latency.',
+    tags: ['JavaScript', 'LLM API', 'Streaming'],
     link: 'https://github.com/GURUMITHRAN-15/mithranGPT'
   },
   {
     title: 'ai-news-automation-n8n',
-    description: 'An automated news aggregation and processing workflow built using n8n for efficient data pipelines.',
-    tags: ['n8n', 'Automation', 'News'],
+    description: 'Manual news curation is time-intensive. Designed an automated pipeline using n8n that aggregates, filters, and delivers AI-curated news summaries on schedule. Tech: n8n, APIs, Webhooks. Processes 100+ articles daily with zero manual input.',
+    tags: ['n8n', 'Automation', 'APIs'],
     link: 'https://github.com/GURUMITHRAN-15/ai-news-automation-n8n'
   },
   {
     title: 'ipl-auction',
-    description: 'A comprehensive IPL auction simulation or tracking system.',
-    tags: ['Web', 'Simulation'],
+    description: 'Managing fantasy league auctions manually causes disputes. Built a real-time auction platform with budget tracking, bid validation, and live player allocation. Tech: JavaScript, Firebase. Supports 10+ concurrent users with real-time sync.',
+    tags: ['JavaScript', 'Firebase', 'Real-time'],
     link: 'https://github.com/GURUMITHRAN-15/ipl-auction'
   },
   {
     title: 'YT-DISTRACTION',
-    description: 'A productivity tool designed to manage and reduce YouTube distractions for focused work.',
-    tags: ['Productivity', 'Tool'],
+    description: 'YouTube\'s recommendation algorithm reduces productivity. Built a browser-level tool that blocks distracting elements and enforces focus sessions. Tech: JavaScript, Browser APIs. Reduces average distraction time by blocking feed and autoplay.',
+    tags: ['JavaScript', 'Browser APIs', 'Productivity'],
     link: 'https://github.com/GURUMITHRAN-15/YT-DISTRACTION'
   },
   {
     title: 'moviesda-mcp',
-    description: 'An MCP (Model Context Protocol) server integration for movie data.',
-    tags: ['MCP', 'Integration'],
+    description: 'LLMs cannot access live movie databases natively. Built an MCP server that exposes structured movie data to AI models via the Model Context Protocol. Tech: Node.js, MCP SDK. Enables real-time data retrieval within AI conversations.',
+    tags: ['Node.js', 'MCP', 'AI Integration'],
     link: 'https://github.com/GURUMITHRAN-15/moviesda-mcp'
   }
 ];
@@ -41,7 +41,7 @@ const Projects = () => {
         <div className="section-header fade-in-up">
           <span className="section-tag">💻 Latest Works</span>
           <h2 className="section-title">Open Source Projects</h2>
-          <p className="section-subtitle">A collection of my recent GitHub repositories focusing on AI, automation, and web development.</p>
+          <p className="section-subtitle">Production-oriented projects spanning backend systems, API integrations, and AI-powered automation.</p>
         </div>
 
         <div className="projects-grid">

@@ -44,7 +44,7 @@ const Contact = () => {
         <div className="section-header fade-in-up">
           <span className="section-tag">📬 Get In Touch</span>
           <h2 className="section-title">Let's Connect</h2>
-          <p className="section-subtitle">Have a project in mind or just want to say hi? Feel free to reach out!</p>
+          <p className="section-subtitle">Open to backend roles, freelance projects, and technical collaborations. Drop a message — I respond within 24 hours.</p>
         </div>
 
         <div className="contact-content fade-in-up">

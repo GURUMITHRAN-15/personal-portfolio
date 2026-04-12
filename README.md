@@ -2,7 +2,7 @@
 
 A modern, interactive personal portfolio built with **React + Vite**, featuring smooth animations, a custom cursor, and a clean minimal design.
 
-🔗 **Live Demo:** [personal-portfolio-eight-steel-25.vercel.app](https://personal-portfolio-eight-steel-25.vercel.app)
+🔗 **Live Demo:** https://gurumithran-15.vercel.app/
 
 ---
 
